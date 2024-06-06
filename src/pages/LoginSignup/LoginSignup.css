@@ -1,0 +1,8 @@
+.login-form {
+    padding: 100px !important;
+}
+
+.login-form p span {
+    color: blue;
+    cursor: pointer;
+}

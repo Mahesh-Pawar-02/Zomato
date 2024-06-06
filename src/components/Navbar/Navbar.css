@@ -1,0 +1,31 @@
+.navbar {
+    position: fixed !important;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-right img {
+    cursor: pointer;
+    width: 30px;
+}
+
+.items {
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: red;
+    color: white;
+    margin-left: -35px;
+    margin-top: -25px;
+}

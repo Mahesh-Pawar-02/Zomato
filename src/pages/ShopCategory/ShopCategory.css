@@ -1,0 +1,13 @@
+.shopcategory-products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+@media (max-width: 700px) {
+    .shopcategory-products {
+        grid-template-columns: 1fr;
+        width: fit-content;
+        margin: 20px auto;
+        gap: 10px;
+    }
+}
